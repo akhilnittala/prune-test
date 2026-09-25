@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prune-me
+  namespace: prune-test
+data:
+  purpose: "auto-sync autoPrune test - should be deleted when removed from git"
