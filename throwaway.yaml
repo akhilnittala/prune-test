@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: throwaway
-  namespace: prune-test
-data:
-  role: "orphan-to-be for Case D"
