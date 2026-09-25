@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: keeper
+  namespace: prune-test
+data:
+  role: "permanent - keeps desired state non-empty"
