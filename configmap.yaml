@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prune-test-config
+  namespace: prune-test
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=true
+data:
+  message: "hello"
